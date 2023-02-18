@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    color: #555;
+ }
+/* ------------------------------------nav bar---------------------------- */
+.navbar{
+    padding: 10px;
+    color: white;
+   border-bottom: 1px solid #686b78;
+}
+
+.container-fluid{
+    display: flex;
+    align-items: center;
+    /* color: white; */
+    background-color: white;
+}
+
+.navright{
+    display: flex;
+    margin-left: auto;
+}
+
+li{
+    list-style-type: none;
+    margin-left: 15px;
+}
+
+li a,.container-fluid a{
+    text-decoration-style: none;
+    text-decoration: none;
+    color: #686b78;
+    font-size: 1rem;
+
+}
+
+
+
+/* -----------------------------cart section ----------------------------------------- */
+.listHeading{
+padding: 30px;
+padding-bottom: 20px;
+text-align: center;
+font-size: 2.2rem;
+/* border: 1px solid ; */
+color: #686b78;
+
+/* text-shadow: 2px 2px 2px #CCCCCC; */
+}
+
+ h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+ }
+ .products{
+   width: 90%;
+   margin: 10px auto;
+     /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto)); */
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     
+ }
+ .product{
+    /* padding: 10px; */
+    width: 350px;
+
+    /* box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); */
+    padding: 20px 20px 35px;
+    border: 1px solid #fff;
+    contain: content;
+ }
+
+ .product:hover{
+   border: 2px solid #686b78 ;
+   /* border-sh: rgb(172, 180, 187); */
+   /* box-shadow: 1px 1px #686b78; */
+ }
+
+ .product img{
+    width: 100%;
+    height: 200px;
+    display: block;
+ }
+ .product .title{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+ }
+ .product .description{
+    padding: 0 ;
+    line-height: 1.2;
+    height: 80px;
+ }
+ .product .price{
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    color: #9b0b03;
+    padding-top: 30px;
+    font-family: sans-serif;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    /* transform: rotate(-45deg); */
+ }
+
+ .product .dis{
+   margin: 0 auto;
+   width: 70%;
+   text-align: center;
+    font-weight: 300;
+    font-size: 22px;
+    padding: 10px;
+    color: rgb(121, 33, 33);
+    background-color: green;
+    color: aliceblue;
+    text-align: center !important;
+    border-radius: 32px;
+    text-shadow: 0 5px 5px rgba(243, 132, 5, 0.959);
+ }
+ .product .cart{
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    background-color: #3e628f;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+ }
+ .product .cart i{
+    padding-left: 10px;
+ }
+ .view-more{
+    margin: 0 auto;
+    max-width: 1240px;
+    padding: 20px;
+    text-align: center;
+ }
+ .view-more button{
+    padding: 10px 25px;
+ }
+
+ .head2{
+   font-size: 2rem;
+   text-align: center;
+   color: rgb(156, 86, 86);
+   line-height: 1.9;
+   padding-inline: 50px;
+   /* background-color: blue; */
+ }
+
+ .time{
+   font-size: 2.8rem;
+   color: #686b78;
+   text-shadow: 3px 2px #6b6c74;
+ }
+
+ .restaurant{
+   font-size: 24px;
+   font-weight: 500;
+   word-break: break-word;
+}
+
+.shopLocation{
+   font-size: 16px;
+   color: #717481;
+}
+
+.item{
+    color: #686b78;
+    font-size: 18px;
+    margin-top: 4px;
+    height: 55px;
+}
+ 
+.rating{
+   margin-block: auto;
+   padding: 2px;
+   display: inline-block;
+   background-color: #48c479;
+    color: #fff;
+}
+
+.ratePrice{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-inline: 2px;
+}
+
+.coupen{
+   margin: 21px;
+   font-weight: 400;
+   overflow: hidden;
+   white-space: nowrap;
+   text-align: center;
+   padding-top: 10px;
+   border-top: 1px solid rgb(66, 64, 64);
+}
+
+
+/* -------------------------- */
+/* *{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+}
+
+li{
+    list-style-type: none;
+}
+
+.main{
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px,auto));
+    gap: 5px;
+}
+
+/* .card img{ */
+    /* height: 200px; */
+/* } */
+
+.main li{
+    width: 200px;
+} 
